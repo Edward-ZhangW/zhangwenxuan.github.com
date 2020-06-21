@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+p,h1,h2,h3,h4,h5,h6,ul,dl,dd,li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    color: #eaeaea;
+    text-decoration: none;
+}
+a:hover{
+    color:#00925F;
+}
+
+/*取消 某些元素 默认的 margin，padding，列表项标志*/
+p, h1, h2, h3, h4, h5, h6, ul, dl, dd, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container{
+    width: 1280px;
+    margin: 0px auto;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.fade{
+    opacity: 0;
+}
+.show{
+    opacity: 1;
+}
+
+/*header部分样式 */
+#header{
+    height: 38px;
+    background-color: #399A44;
+}
+.header_title{
+    font-weight: bold;
+    font-size: 16px；
+}
+.header_content{
+    width: 1190px;
+}
+.header_content ul{
+    margin-left: 196px;
+}
+
+.header_content>ul>li{
+    float: left;
+    line-height: 38px;
+}
+
+.header_content a{
+    color: #FFF;
+    padding: 8px 20px;
+    font-size: 14px;
+}
+/*页面主体部分样式*/
+#main{
+    height: 652px;
+    background-color: #FBFBFB26;
+    width: 322px;
+    min-height: 202px;
+    margin: 0 auto;
+ }
+#border{
+    width:1300px;
+    height:650px;
+    border:2px solid #2CAD6F;
+    background-color: #FBFBFB99;
+    border-radius:10px;
+    margin:30px auto;
+    box-shadow:10px 10px 20px #2CAD6F;
+}
+.logo{
+    width: 74px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.logo img{
+    width:74px;
+}
+
+/*表单元素*/
+.main_content1>p{
+    font-size: 14px;
+    color: #393939;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.inp{
+    margin-top:-28px;
+}
+.text{
+    width: 320px;
+    height: 45px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    margin-top: 20px;
+    transition: border 0.3s linear;
+}
+
+.text:focus {
+    border: 1px solid #00925F;
+}
+.err{
+    width: 320px;
+    height: 45px;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+    text-align:center;
+    color:#921404;
+    position:relative;
+    top:40px;
+}
+/*密码栏，账号栏*/
+.main_content2 .text{
+    background-color: #7aff1f17;
+}
+.main_content3 .text{
+    background-color: #7aff1f17;
+}
+/*找回密码，账号申诉*/
+.main_content4 {
+    text-align: right;
+    margin: 10px 0 20px 0;
+}
+
+.safe {
+    margin: 0 8px;
+}
+
+.safes {
+    color: #055D06;
+    font-size: 14px;
+}
+
+/*登录，注册按钮*/
+.main_content5{
+    width: 320px;
+    height: 45px;
+    border: 1px solid #E2E2E2;
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    color: #fff;
+    background: #3F9421;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.main_content5>a{
+    font-size: 16px;
+    font-weight: bold;
+}
+.main_content5>a:hover{
+    color: #DB9C25;
+}
+
+.main_content6{
+    width: 320px;
+    height: 45px;
+    border: 1px solid #3AB954;
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    color: #393939;
+    margin-top: 15px;
+    cursor: pointer;
+    display:block;
+}
+
+/*选择其他方式登录*/
+.main_content7{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.main_content8{
+    margin: 0 auto;
+    width: 230px;
+}
+
+.main_content8>img{
+    margin: 18px 12px;
+    cursor: pointer;
+}

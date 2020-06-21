@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+p,h1,h2,h3,h4,h5,h6,ul,dl,dd,li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    color: #13021d;
+    text-decoration: none;
+}
+
+/*取消某些元素默认margin，padding，列表项标志*/
+p, h1, h2, h3, h4, h5, h6, ul, dl, dd, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*header部分样式 */
+#header{
+    height: 38px;
+    background-color: #399A44;
+}
+.header_title{
+    font-weight: bold;
+    font-size: 16px；
+}
+.header_content{
+    width: 1190px;
+}
+.header_content ul{
+    margin-left: 196px;
+}
+
+.header_content>ul>li{
+    float: left;
+    line-height: 38px;
+}
+
+.header_content a{
+    color: #FFF;
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+/*页面主体内容*/
+.border{
+    width:1300px;
+    height:650px;
+    border:2px solid #2CAD6F;
+    background-color: #3e995599;
+    border-radius:10px;
+    margin:30px auto;
+    text-align: center;
+    box-shadow:10px 10px 20px #2CAD6F;
+}
+.juzhong{
+    font-size: 18px;
+}
+.border img{
+    width: 1200px;
+    padding: 30px;
+}
